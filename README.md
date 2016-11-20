@@ -1,21 +1,18 @@
 # seriousemail-php
-A PHP class to help access the Serious.Email API and trigger HTML email sends.
+
+A PHP class to help access the Serious.Email API and trigger HTML email sends.  You may send one or more emails and as many emails as your account allows.
 
 ## Getting Started
 
-Download this class and example to help you understand how to trigger email sends at Serious.email.
+Download this class and example to help you trigger email sends at Serious.email.
 
 ### Prerequisites
 
 This class requires an account Serious.email.  https://serious.email
 
-```
-Give examples
-```
-
 ### Installing
 
-This API requires that you set up a few things at Seroius.email.
+This API requires that you set up a few things at Serious.email.
 
 Step 1: Generate a public_api_key and api_secret here:
 
@@ -45,12 +42,13 @@ Step 5: Now that you have set-up everything at Serious.email you can start sendi
 
 require_once('lib/SeriousEmail.php');
 
+
 Step 6: Use the example provided as a basis for adding your own content.
 
 
 ## Authors
 
-* **Kurt Dommermuth** - *Initial work* - [dommermuth](https://github.com/dommermuth)
+* **Kurt Dommermuth** [dommermuth](https://github.com/dommermuth)
 
 ## License
 
