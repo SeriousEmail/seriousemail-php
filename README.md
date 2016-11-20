@@ -60,6 +60,7 @@ require_once('lib/SeriousEmail.php');
 $api_secret = 'your_api_secret';
 $se = new SeriousEmail($api_secret);
 
+//an example of adding and sending to 2 subscribers...
 $data = array(
 		'public_api_id' => 'your_public_api_key', 
 		'campaign_id' => 89,
@@ -78,16 +79,16 @@ $data = array(
 	
 							),
 								
-							array (
+						array (
 								
-								'first_name' => 'Bob',
-								'last_name' => 'Smith',
-								'email' => 'test2t@example.com',
-								'custom' => array(
-										'Points' => 500,
-										'Balance' => 20,
-										)
-							),
+							'first_name' => 'Bob',
+							'last_name' => 'Smith',
+							'email' => 'test2t@example.com',
+							'custom' => array(
+									'Points' => 500,
+									'Balance' => 20,
+									)
+						),
 							
 					),	
 							
