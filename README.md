@@ -46,14 +46,11 @@ This is the template that will be sent to your remotely added subscribers.
 
 **Step 5: Download(https://github.com/dommermuth/seriousemail-php/archive/master.zip) this class and add it to your project.**
 
-Now that you have set-up everything at Serious.email you can start sending emails.  Simply add this class to your PHP project:
-
-```
-require_once('lib/SeriousEmail.php');
-```
 
 
 **Step 6: Use the example provided as a basis for adding your own content.**
+
+Now that you have set-up everything at Serious.email you can start sending emails.  Simply add this class to your PHP project:
 
 ```
 <?php
