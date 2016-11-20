@@ -4,7 +4,7 @@ A PHP class to help access the Serious.Email API and trigger HTML email sends.  
 
 ## Getting Started
 
-Download this class and example to help you trigger email sends at Serious.email.
+[Download](https://github.com/dommermuth/seriousemail-php/archive/master.zip) this package (example included) to help you trigger email sends at Serious.email.
 
 ### Prerequisites
 
