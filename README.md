@@ -99,10 +99,15 @@ For example:
 
 ```
 <head>
+
 <title>An example of how to populate a template with dynamic (custom) data</title>
+
 </head>
+
 <body>
-<p>You have %%Points%% and your balance is %%Balance%%.</p>
+
+<p>You have **%%Points%%** and your balance is **%%Balance%%**.</p>
+
 </body>
 
 ```
