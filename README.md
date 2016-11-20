@@ -44,7 +44,7 @@ https://serious.email/templates-manager
 This is the template that will be sent to your remotely added subscribers.
 
 
-**Step 5: Download(https://github.com/dommermuth/seriousemail-php/archive/master.zip) this class and add it to your project.**
+**Step 5: [Download](https://github.com/dommermuth/seriousemail-php/archive/master.zip) this class and add it to your project.**
 
 
 
