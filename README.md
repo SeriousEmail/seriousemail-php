@@ -106,7 +106,7 @@ For example:
 
 <body>
 
-<p>You have **%%Points%%** and your balance is **%%Balance%%**.</p>
+<p>You have %%Points%% and your balance is %%Balance%%.</p>
 
 </body>
 
