@@ -14,7 +14,7 @@ This class requires an account Serious.email.  https://serious.email
 
 This API requires that you set up a few things at Serious.email.
 
-Step 1: Generate a public_api_key and api_secret here:
+**Step 1: Generate a public_api_key and api_secret**
 
 https://serious.email/account/settings#tab_api-settings
 
