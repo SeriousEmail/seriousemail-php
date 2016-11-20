@@ -2,8 +2,6 @@
 /**
   * This library allows you to quickly and easily send emails through Serious.Email using PHP.
   *
-  * PHP version 5.3
-  *
   * @author    Kurt Dommermuth <kurt@serious.email>
   * @copyright 2016 Serious Email
   * @license   https://opensource.org/licenses/MIT The MIT License
