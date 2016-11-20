@@ -48,14 +48,16 @@ This is the template that will be sent to your remotely added subscribers.
 
 Now that you have set-up everything at Serious.email you can start sending emails.  Simply add this class to your PHP project:
 
-...
+```
 require_once('lib/SeriousEmail.php');
-...
+```
 
 
 **Step 6: Use the example provided as a basis for adding your own content.**
 
-...
+```
+<?php
+
 require_once('lib/SeriousEmail.php');
 
 $api_secret = 'your_api_secret';
@@ -67,30 +69,30 @@ $data = array(
 		'template_id' => 442,
 		'recipient_info' => array( 
 		
-								array (
+						array (
 								
-									'first_name' => 'Sam',
-									'last_name' => 'Lamb',
-									'email' => 'test1t@example.com',
-									'custom' => array(
-														'Points' => 92,
-														'Balance' => 500,
-													 )
+							'first_name' => 'Sam',
+							'last_name' => 'Lamb',
+							'email' => 'test1t@example.com',
+							'custom' => array(
+									'Points' => 92,
+									'Balance' => 500,
+									)
 	
-								),
+							),
 								
-								array (
+							array (
 								
-									'first_name' => 'Bob',
-									'last_name' => 'Smith',
-									'email' => 'test2t@example.com',
-									'custom' => array(
-														'Points' => 500,
-														'Balance' => 20,
-													 )
-								),
+								'first_name' => 'Bob',
+								'last_name' => 'Smith',
+								'email' => 'test2t@example.com',
+								'custom' => array(
+										'Points' => 500,
+										'Balance' => 20,
+										)
+							),
 							
-							),	
+					),	
 							
 		
 	    );
@@ -100,7 +102,7 @@ $send = $se->send($data, 1);  //0 = debugging false
 if(isset($send)){
 	echo $send->feedback;
 }
-...
+```
 
 ## Authors
 
