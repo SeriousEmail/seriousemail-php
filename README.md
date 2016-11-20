@@ -1,6 +1,6 @@
 # seriousemail-php
 
-A PHP class to help access the Serious.Email API and trigger HTML email sends.  You may send one or more emails and as many emails as your account allows.
+This is a PHP class to help access the Serious.Email API.  The Serious.Email API leverages Serious Email's HTML email templating system and analytics while allowing you to trigger sends from your own server.  You may send one or more emails simutaneously and as many emails as your account allows.  
 
 ## Getting Started
 
