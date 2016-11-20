@@ -119,6 +119,10 @@ Turn on debugging for feedback as to what is happening with your call to the Ser
 ```
 $send = $se->send($data, 1);
 
+if(isset($send)){
+    echo $send->feedback;
+}
+
 ```
 
 ## Authors
