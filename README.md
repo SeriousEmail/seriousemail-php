@@ -95,11 +95,19 @@ $data = array(
 		
 	    );
 
-$send = $se->send($data, 1);  //0 = debugging false
+$send = $se->send($data);
 
 if(isset($send)){
 	echo $send->feedback;
 }
+```
+### Debugging
+
+Turn on debugging for feedback as to what is happening with your call to the Serious.Email API
+
+```
+$send = $se->send($data, 1);
+
 ```
 
 ## Authors
