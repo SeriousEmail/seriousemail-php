@@ -93,7 +93,9 @@ if(isset($send)){
 	echo $send->feedback;
 }
 ```
-**'custom'** data can be sent via the custom array.  You can include as much custom data as you'd like.  Populating your template with this data is easy.  You'd simply wrap the index name in double percentage signs and include it in your Serious Email template... 
+**'custom'** data can be sent via the custom array.  You can include as much custom data as you'd like.  Populating your template with this data is easy.  You'd simply wrap the index name in double percentage signs and include it in your Serious Email template.
+
+For example:
 
 ```
 You have %%Points%% and your balance is %%Balance%%.
