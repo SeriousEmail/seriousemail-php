@@ -73,19 +73,8 @@ class SeriousEmail
 		
 		//get a raw response for debugging
 		$raw_response = curl_exec($ch);	
-		
-		if($debug){
-			
-			$ee = curl_getinfo($ch);
-			echo "<strong>Raw curl response:</strong><br><br>";
-			print_r($raw_response);
-			echo "<br><br><strong>curl info:</strong><br><br>";
-			print_r($ee);
-			echo "<br><br>";
-		}
-			
-		$response = json_decode($raw_response);
-		
+					
+		$response = json_decode($raw_response);		
 
 		if(!isset($response)) {
 			
@@ -95,6 +84,13 @@ class SeriousEmail
 					);
 					
 			$response = json_decode(json_encode($response));		
+		}
+		
+		if($debug){
+			
+			$ee = curl_getinfo($ch);			
+			$response['raw_reponse'] = $raw_response;
+			$response['curl_info'] = $ee;
 		}
 		
 		return $response;

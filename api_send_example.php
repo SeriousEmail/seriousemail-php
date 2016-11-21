@@ -45,3 +45,19 @@ $send = $se->send($data, 1);  //0 = debugging false
 if(isset($send)){
 	echo $send->feedback;
 }
+
+if(!empty( $send->raw_response )){
+	
+	echo "<strong>Raw Response</strong>";
+	print "<pre";
+	print_r($send->raw_response);
+	print "</pre>";
+}
+
+if(!empty( $send->curl_info )){
+
+	echo "<strong>Curl information</strong>";
+	print "<pre";
+	print_r($send->curl_info);
+	print "</pre>";
+}
