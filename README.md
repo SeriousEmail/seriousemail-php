@@ -92,7 +92,7 @@ $send = $se->send($data);
 if(isset($send)){
 	echo $send->feedback;
 }
-```
+  ```
 
   An api_secret is required. Please do not expose your api_secret.
 
@@ -120,8 +120,7 @@ if(isset($send)){
 <p>You have %%Points%% and your balance is %%Balance%%.</p>
 
 </body>
-
-```
+  ```
 
 ### Debugging
 
