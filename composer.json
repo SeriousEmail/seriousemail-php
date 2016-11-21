@@ -1,5 +1,5 @@
 {
-  "name": "SeriousEmail/seriousemail",
+  "name": "SeriousEmail/seriousemail-php",
   "description": "This library allows you to quickly and easily send emails through Seroius.Email.",
   "version": "1.0.0",
   "homepage": "https://github.com/SeriousEmail/seriousemail-php",
