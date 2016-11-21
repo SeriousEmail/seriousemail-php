@@ -129,3 +129,7 @@ if(isset($send)){
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
+<a href="https://serious.email">
+  <img src="https://serious.email/images/logo.svg" width="100%" height="28">
+</a>
+
