@@ -94,15 +94,15 @@ if(isset($send)){
 }
   ```
 
-  An api_secret is required. Please do not expose your api_secret.
+  **api_secret** is required. Please do not expose your api_secret.
 
-  A public_api_key is required.  This gets passed in your $data array.
+  **public_api_key** is required.  This gets passed in your $data array.
 
-  A campaign_id is required.  You get this from your account at Serious.email. This gets passed in your $data array.
+  **campaign_id** is required.  You get this from your account at Serious.email. This gets passed in your $data array.
 
-  A template_id is required.  You get this from your acccount at Serious.email. This gets passed in your $data array.
+  **template_id** is required.  You get this from your acccount at Serious.email. This gets passed in your $data array.
 
-  At least one recipient must be added to 'recipient_info'.  You can add as many as your account allows.  'recipient_info' must include an email address, but all other information is optional.  If you wish to personalize your template with the first_name or last_name you simply include `%%first_name%%` and/or `%%last_name%%` in your template. This gets passed in your $data array.
+  At least one recipient must be added to **recipient_info**.  You can add as many as your account allows.  **recipient_info** must include an **'email'** address, but all other information is optional.  If you wish to personalize your template with the **first_name** or **last_name** you simply include `%%first_name%%` and/or `%%last_name%%` in your template. This gets passed in your $data array.
 
   **'custom'** data can be sent via the 'custom' array which is also included in your $data array.  You can include as much custom data as you'd like. Populating your template with this data is easy.  You'd simply wrap the array index name in double percentage signs and include it in your Serious Email template. 
 
