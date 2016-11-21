@@ -5,9 +5,8 @@
   "homepage": "https://github.com/SeriousEmail/seriousemail-php",
   "license": "MIT",
   "keywords": ["SendEmail", "seriousemail", "email"],
-  "minimum-stability": "dev",
   "require": {
-    "php": ">=5.6",
+    "php": ">=5.6"
   },
   "type": "library",
   "autoload": {
