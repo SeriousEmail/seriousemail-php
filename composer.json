@@ -1,5 +1,5 @@
 {
-  "name": "SeriousEmail/seriousemail-php",
+  "name": "seriousemail/seriousemail",
   "description": "This library allows you to quickly and easily send emails through Seroius.Email.",
   "version": "1.0.0",
   "homepage": "https://github.com/SeriousEmail/seriousemail-php",
@@ -7,8 +7,7 @@
   "keywords": ["SeriousEmail", "serious email", "serious.email", "email"],
   "require": {
     "php": ">=5.6"
-  },
- 
+  }, 
   "replace": {
     "SeriousEmail/seriousemail-php": "*"
   },
