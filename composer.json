@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "homepage": "https://github.com/SeriousEmail/seriousemail-php",
   "license": "MIT",
-  "keywords": ["SendEmail", "seriousemail", "email"],
+  "keywords": ["SeriousEmail", "seriousemail", "email"],
   "require": {
     "php": ">=5.6"
   },
