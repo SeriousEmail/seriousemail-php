@@ -25,9 +25,9 @@ require 'vendor/autoload.php';
 
 ```
 
-**Alternatively**
+**Manually**
 
-[Download](https://github.com/dommermuth/seriousemail-php/archive/master.zip) this package (example included) to help you trigger email sends at Serious.email.
+If you're not using composer, you can [Download](https://github.com/dommermuth/seriousemail-php/archive/master.zip) this package (example included) to help you trigger email sends at Serious.email.
 
 ### Prerequisites
 
