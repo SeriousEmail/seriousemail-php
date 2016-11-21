@@ -14,21 +14,21 @@ This class requires an account Serious.email.  https://serious.email
 
 This API requires that you set up a few things at Serious.email.
 
-1. **Step 1: Generate a public_api_key and api_secret**
+1. **Generate a public_api_key and api_secret**
 
   https://serious.email/account/settings#tab_api-settings
 
   *Note the api_secret and keep in a safe place as it will only be revealed once.  In the event you forget it, you'll need to regenerate your keys again.*
 
 
-2. **Step 2: Create a subscribers list**
+2. **Create a subscribers list**
 
   https://serious.email/subscribers-manager
 
   Subscribers that you add via this API will be saved to this list.  This enables comprehensive analytics, future sends and data back-up.
 
 
-3. **Step 3: Create a campaign and note it's ID**
+3. **Create a campaign and note it's ID**
 
   https://serious.email/campaigns-manager
 
@@ -37,22 +37,22 @@ This API requires that you set up a few things at Serious.email.
   Use the settings dialog to indicate a default subcriber list, default test subscriber list, sender name and sender email.
 
 
-4. **Step 4: Create an email template**
+4. **Create an email template**
 
   https://serious.email/templates-manager
 
   This is the template that will be sent to your remotely added subscribers.
 
 
-5. **Step 5: [Download](https://github.com/dommermuth/seriousemail-php/archive/master.zip) this class and add it to your project.**
+5. **[Download](https://github.com/dommermuth/seriousemail-php/archive/master.zip) this class and add it to your project.**
 
 
 
-6. **Step 6: Use the example provided as a basis for adding your own content.**
+6. **Use the example provided as a basis for adding your own content.**
 
   Now that you have set-up everything at Serious.email you can start sending emails.  Simply add this class to your PHP project:
 
-```
+  ```
 <?php
 
 require_once('lib/SeriousEmail.php');
