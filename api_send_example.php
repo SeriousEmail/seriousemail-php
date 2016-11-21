@@ -1,13 +1,13 @@
 <?php
 
+//require 'vendor/autoload.php'; //USE THIS IF USING COMPOSER
+require_once('src/SeriousEmail/SeriousEmail.php');  //Update this path if you changed the location of SeriousEmail.php
 
-require_once('src/SeriousEmail/SeriousEmail.php');
-
-$api_secret = 'your_api_secret';
+$api_secret = 'YOUR_API_SECRET';
 $se = new SeriousEmail($api_secret);
 
 $data = array(
-		'public_api_id' => 'your_public_api_key', 
+		'public_api_id' => 'YOUR_PUBLIC_API_KEY', 
 		'campaign_id' => 89,
 		'template_id' => 442,
 		'recipient_info' => array( 
@@ -16,7 +16,7 @@ $data = array(
 								
 									'first_name' => 'Sam',
 									'last_name' => 'Lamb',
-									'email' => 'test1t@example.com',
+									'email' => 'success@simulator.amazonses.com',
 									'custom' => array(
 														'Points' => 92,
 														'Balance' => 500,
@@ -28,7 +28,7 @@ $data = array(
 								
 									'first_name' => 'Bob',
 									'last_name' => 'Smith',
-									'email' => 'test2t@example.com',
+									'email' => 'success+label1@simulator.amazonses.com',
 									'custom' => array(
 														'Points' => 500,
 														'Balance' => 20,
