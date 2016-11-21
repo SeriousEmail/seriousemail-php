@@ -7,7 +7,7 @@
   "keywords": ["SeriousEmail", "serious email", "serious.email", "email"],
   "autoload": {
         "psr-0" : {
-            "Weaverryan\\DangerZone" : "src"
+            "SeriousEmail\\seriousemail" : "src"
         }
     }
 }
