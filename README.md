@@ -4,6 +4,29 @@ This is a PHP class to help access the Serious.Email API.  The Serious.Email API
 
 ## Getting Started
 
+You can install this package via Composer or manually.  
+
+**Composer**
+
+Add SeriousEmail to your composer.json file. 
+
+```
+{
+  "require": {
+    "seriousemail/seriousemail-php": "dev-master"
+  }
+}
+
+```
+At the top of your PHP script require the autoloader:
+
+```
+require 'vendor/autoload.php';
+
+```
+
+**Alternatively**
+
 [Download](https://github.com/dommermuth/seriousemail-php/archive/master.zip) this package (example included) to help you trigger email sends at Serious.email.
 
 ### Prerequisites
