@@ -1,5 +1,6 @@
 {
   "name": "SeriousEmail/seriousemail-php",
+  "minimum-stability": "dev",
   "autoload": {
         "psr-0" : {
             "" : "lib/"
