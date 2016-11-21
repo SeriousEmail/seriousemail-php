@@ -67,13 +67,9 @@ This API requires that you set up a few things at Serious.email.
   This is the template that will be sent to your remotely added subscribers.
 
 
-5. **(if you haven't already done this) [Download](https://github.com/SeriousEmail/seriousemail-php/archive/master.zip) this class and add it to your project.**
+5. **Use the example provided as a basis for adding your own content.**
 
-
-
-6. **Use the example provided as a basis for adding your own content.**
-
-  Now that you have set-up everything at Serious.email you can start sending emails.  Simply add this class to your PHP project:
+  Now that you have set-up everything at Serious.email and you've installed this package - you can start sending emails.  Below is an example script for accessing the API and sending an email:
 
   ```
 <?php
@@ -81,12 +77,12 @@ This API requires that you set up a few things at Serious.email.
 //require 'vendor/autoload.php'; //use this if installed via Composer.
 require_once('lib/SeriousEmail/SeriousEmail.php'); //manual installation
 
-$api_secret = 'your_api_secret';
+$api_secret = 'YOUR_API_SECRET';
 $se = new SeriousEmail($api_secret);
 
 //an example of adding and sending to 2 subscribers...
 $data = array(
-		'public_api_id' => 'your_public_api_key', 
+		'public_api_id' => 'YOUR_PUBLIC_API_KEY', 
 		'campaign_id' => 89,
 		'template_id' => 442,
 		'recipient_info' => array(		
