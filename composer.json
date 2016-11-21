@@ -5,11 +5,9 @@
   "homepage": "https://github.com/SeriousEmail/seriousemail-php",
   "license": "MIT",
   "keywords": ["SeriousEmail", "serious email", "serious.email", "email"],
-  "require": {
-    "php": ">=5.6"
-  }
-  "type": "library",
   "autoload": {
-    "files": ["lib/SeriousEmail.php"]
-  }
+        "psr-0" : {
+            "Weaverryan\\DangerZone" : "src"
+        }
+    }
 }
