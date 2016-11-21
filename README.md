@@ -1,6 +1,10 @@
 # seriousemail-php
 
-This is a PHP class to help access the Serious.Email API.  The Serious.Email API leverages Serious Email's HTML email templating system and analytics while allowing you to trigger sends from your own server.  You may send one or more emails simutaneously and as many emails as your account allows.  
+This is a PHP class to help access the Serious.Email API.  The Serious.Email API leverages Serious Email's HTML email templating system and analytics while allowing you to trigger sends from your own server.  You may send one or more emails simutaneously and as many emails as your account allows. 
+
+### Prerequisites
+
+This class requires an account Serious.email.  https://serious.email
 
 ## Getting Started
 
@@ -29,11 +33,7 @@ require 'vendor/autoload.php';
 
 If you're not using composer, you can [Download](https://github.com/dommermuth/seriousemail-php/archive/master.zip) this package (example included) to help you trigger email sends at Serious.email.
 
-### Prerequisites
-
-This class requires an account Serious.email.  https://serious.email
-
-### Installing
+### Instructions
 
 This API requires that you set up a few things at Serious.email.
 
@@ -78,7 +78,8 @@ This API requires that you set up a few things at Serious.email.
   ```
 <?php
 
-require_once('lib/SeriousEmail.php');
+//require 'vendor/autoload.php'; //use this if installed via Composer.
+require_once('lib/SeriousEmail/SeriousEmail.php'); //manual installation
 
 $api_secret = 'your_api_secret';
 $se = new SeriousEmail($api_secret);
