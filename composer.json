@@ -1,12 +1,21 @@
 {
   "name": "seriousemail/seriousemail-php",
+  "description": "This library allows you to quickly and easily send emails through Serious.Email using PHP.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/SeriousEmail/seriousemail-php",
+  "license": "MIT",
+  "keywords": ["SendEmail", "seriousemail", "email",],
   "minimum-stability": "dev",
   "require": {
-        "php": ">=5.3.0"
-   },
+    "php": ">=5.6",
+  },
+  "require-dev": {
+  },
+  "replace": {
+    "seriousemail/seriousemail-php": "*"
+  },
+  "type": "library",
   "autoload": {
-        "psr-0" : {
-            "seriousemail\\" : "src/"
-        }
-    }
+    "files": ["src/SeriousEmail/SeriousEmail.php"]
+  }
 }
