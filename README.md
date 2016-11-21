@@ -16,16 +16,16 @@ This API requires that you set up a few things at Serious.email.
 
 1. **Step 1: Generate a public_api_key and api_secret**
 
-https://serious.email/account/settings#tab_api-settings
+⋅⋅⋅https://serious.email/account/settings#tab_api-settings
 
-*Note the api_secret and keep in a safe place as it will only be revealed once.  In the event you forget it, you'll need to regenerate your keys again.*
+⋅⋅⋅*Note the api_secret and keep in a safe place as it will only be revealed once.  In the event you forget it, you'll need to regenerate your keys again.*
 
 
 2. **Step 2: Create a subscribers list**
 
-https://serious.email/subscribers-manager
+⋅⋅⋅https://serious.email/subscribers-manager
 
-Subscribers that you add via this API will be saved to this list.  This enables comprehensive analytics, future sends and data back-up.
+⋅⋅⋅Subscribers that you add via this API will be saved to this list.  This enables comprehensive analytics, future sends and data back-up.
 
 
 3. **Step 3: Create a campaign and note it's ID**
