@@ -30,18 +30,18 @@ This API requires that you set up a few things at Serious.email.
 
 3. **Step 3: Create a campaign and note it's ID**
 
-https://serious.email/campaigns-manager
+  https://serious.email/campaigns-manager
 
-You will include this ID when using this API to trigger a send.
+  You will include this ID when using this API to trigger a send.
 
-Use the settings dialog to indicate a default subcriber list, default test subscriber list, sender name and sender email.
+  Use the settings dialog to indicate a default subcriber list, default test subscriber list, sender name and sender email.
 
 
 4. **Step 4: Create an email template**
 
-https://serious.email/templates-manager
+  https://serious.email/templates-manager
 
-This is the template that will be sent to your remotely added subscribers.
+  This is the template that will be sent to your remotely added subscribers.
 
 
 5. **Step 5: [Download](https://github.com/dommermuth/seriousemail-php/archive/master.zip) this class and add it to your project.**
@@ -50,7 +50,7 @@ This is the template that will be sent to your remotely added subscribers.
 
 6. **Step 6: Use the example provided as a basis for adding your own content.**
 
-Now that you have set-up everything at Serious.email you can start sending emails.  Simply add this class to your PHP project:
+  Now that you have set-up everything at Serious.email you can start sending emails.  Simply add this class to your PHP project:
 
 ```
 <?php
@@ -94,19 +94,19 @@ if(isset($send)){
 }
 ```
 
-An api_secret is required. Please do not expose your api_secret.
+  An api_secret is required. Please do not expose your api_secret.
 
-A public_api_key is required.  This gets passed in your $data array.
+  A public_api_key is required.  This gets passed in your $data array.
 
-A campaign_id is required.  You get this from your account at Serious.email.
+  A campaign_id is required.  You get this from your account at Serious.email.
 
-A template_id is required.  You get this from your acccount at Serious.email.
+  A template_id is required.  You get this from your acccount at Serious.email.
 
-At least one recipient must be added to 'recipient_info'.  You can add as many as your account allows.  'recipient_info' must include an email address, but all other information is optional.  If you wish to personalize your template with the first_name or last_name you simply include `%%first_name%%` and/or `%%last_name%%` in your template. 
+  At least one recipient must be added to 'recipient_info'.  You can add as many as your account allows.  'recipient_info' must include an email address, but all other information is optional.  If you wish to personalize your template with the first_name or last_name you simply include `%%first_name%%` and/or `%%last_name%%` in your template. 
 
-**'custom'** data can be sent via the custom array.  You can include as much custom data as you'd like.  Populating your template with this data is easy.  You'd simply wrap the array index name in double percentage signs and include it in your Serious Email template.
+  **'custom'** data can be sent via the custom array.  You can include as much custom data as you'd like.  Populating your template with this data is easy.  You'd simply wrap the array index name in double percentage signs and include it in your Serious Email template.
 
-For example:
+  For example:
 
 ```
 <head>
