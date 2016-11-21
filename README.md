@@ -67,7 +67,7 @@ This API requires that you set up a few things at Serious.email.
   This is the template that will be sent to your remotely added subscribers.
 
 
-5. **[Download](https://github.com/SeriousEmail/seriousemail-php/archive/master.zip) this class and add it to your project.**
+5. **(if you haven't already done this) [Download](https://github.com/SeriousEmail/seriousemail-php/archive/master.zip) this class and add it to your project.**
 
 
 
