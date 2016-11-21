@@ -3,5 +3,10 @@
   "minimum-stability": "dev",
   "require": {
         "src/SeriousEmail": "dev-master",
+    },
+  "autoload": {
+        "psr-0" : {
+            "SeriousEmail\\" : "src/"
+        }
     }
 }
