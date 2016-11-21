@@ -37,7 +37,7 @@ This API requires that you set up a few things at Serious.email.
   Use the settings dialog to indicate a default subcriber list, default test subscriber list, sender name and sender email.
 
 
-4. **Create an email template**
+4. **Create an email template and note it's ID**
 
   https://serious.email/templates-manager
 
