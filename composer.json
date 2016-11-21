@@ -7,7 +7,7 @@
   "keywords": ["SeriousEmail", "serious email", "serious.email", "email"],
   "autoload": {
         "psr-0" : {
-            "SeriousEmail\\seriousemail" : "lib"
+            "SeriousEmail\seriousemail" : "lib"
         }
     }
 }
