@@ -2,7 +2,7 @@
   "name": "SeriousEmail/seriousemail-php",
   "autoload": {
         "psr-0" : {
-            "SeriousEmail\\seriousemail\\" : "lib/"
+            "" : "lib/"
         }
     }
 }
