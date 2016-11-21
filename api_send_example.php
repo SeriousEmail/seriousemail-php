@@ -1,7 +1,7 @@
 <?php
 
 
-require_once('lib/SeriousEmail.php');
+require_once('lib/SeriousEmail/SeriousEmail.php');
 
 $api_secret = 'your_api_secret';
 $se = new SeriousEmail($api_secret);
