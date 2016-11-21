@@ -9,11 +9,6 @@
   "require": {
     "php": ">=5.6",
   },
-  "require-dev": {
-  },
-  "replace": {
-    "seriousemail/seriousemail-php": "*"
-  },
   "type": "library",
   "autoload": {
     "files": ["src/SeriousEmail/SeriousEmail.php"]
