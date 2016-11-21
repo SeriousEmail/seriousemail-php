@@ -46,18 +46,18 @@ if(isset($send)){
 	echo $send->feedback;
 }
 
-if(!empty( $send->raw_response )){
+if($send->debug){
 	
-	echo "<strong>Raw Response</strong>";
-	print "<pre";
-	print_r($send->raw_response);
+	echo "<br><br><strong>Raw Response</strong><br>";
+	print "<pre>";
+	var_dump($send);
 	print "</pre>";
 }
 
 if(!empty( $send->curl_info )){
 
-	echo "<strong>Curl information</strong>";
-	print "<pre";
+	echo "<br><br><strong>Curl information</strong><br>";
+	print "<pre>";
 	print_r($send->curl_info);
 	print "</pre>";
 }

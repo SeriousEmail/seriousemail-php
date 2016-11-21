@@ -88,9 +88,8 @@ class SeriousEmail
 		
 		if($debug){
 			
-			$ee = curl_getinfo($ch);			
-			$response['raw_reponse'] = $raw_response;
-			$response['curl_info'] = $ee;
+			$ee = curl_getinfo($ch);
+			$response->curl_info = $ee;
 		}
 		
 		return $response;
