@@ -73,14 +73,13 @@ class SeriousEmail
 		
 		//get a raw response for debugging
 		$raw_response = curl_exec($ch);	
-					
 		$response = json_decode($raw_response);		
 
 		if(!isset($response)) {
 			
 			$response = array(
 					'success' => 0,
-					'feedback' => 'Message failed to send.  Did not reach the server. Try turning on debugging for more info.',
+					'feedback' => 'Message failed to send.  Did not reach the server or server error. Try turning on debugging for more info.',
 					);
 					
 			$response = json_decode(json_encode($response));		
