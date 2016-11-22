@@ -2,6 +2,10 @@
 
 This is a PHP class to help access the Serious.Email API.  The Serious.Email API leverages Serious Email's HTML email templating system and analytics while allowing you to trigger sends from your own server.  You may send one or more emails simutaneously and as many emails as your account allows. 
 
+### Demo
+
+You can see and test the Serious Email API here:  [DEMO](https://serious.email/api-demo)
+
 ### Prerequisites
 
 This class requires an account Serious.email.  https://serious.email
