@@ -20,7 +20,7 @@ class SeriousEmail
 	private $api_secret;
 	
 	//url for triggering remote sends
-	private $url = 'https://serious.email/send';
+	private $url = 'https://serious.email/api/send';
 
 	/**
      * API keys (including $api_secret) issued for account holders at serious.email
