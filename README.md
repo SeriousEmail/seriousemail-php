@@ -16,7 +16,7 @@ This API requires that you set up a few things at Serious.email.
 
 **Step 1: Generate a public_api_key and api_secret**
 
-https://serious.email/account/settings#tab_api-settings
+https://serious.email/account/settings-api
 
 *Note the api_secret and keep in a safe place as it will only be revealed once.  In the event you forget it, you'll need to regenerate your keys again.*
 
