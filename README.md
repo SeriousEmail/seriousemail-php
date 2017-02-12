@@ -16,13 +16,8 @@ You can install this package via Composer or manually.
 
 **Composer**
 
-<<<<<<< HEAD
-https://serious.email/account/settings-api
-=======
 Add SeriousEmail to your composer.json file. 
->>>>>>> 8606751e0dd07053902a6d1c87a08383da81e887
 
-```
 {
   "require": {
     "seriousemail/seriousemail-php": "dev-master"
@@ -47,7 +42,7 @@ This API requires that you set up a few things at Serious.email.
 
 1. **Generate a public_api_key and api_secret**
 
-  https://serious.email/account/settings#tab_api-settings
+  https://serious.email/account/settings-api
 
   *Note the api_secret and keep in a safe place as it will only be revealed once.  In the event you forget it, you'll need to regenerate your keys again.*
 
