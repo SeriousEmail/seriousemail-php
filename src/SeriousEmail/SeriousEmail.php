@@ -20,7 +20,7 @@ class SeriousEmail
 	private $api_secret;
 	
 	//url for triggering remote sends
-	private $url = 'https://serious.email/send';
+	private $url = 'https://serious.email/api/send';
 
 	/**
      * API keys (including $api_secret) issued for account holders at serious.email
@@ -73,28 +73,22 @@ class SeriousEmail
 		
 		//get a raw response for debugging
 		$raw_response = curl_exec($ch);	
-		
-		if($debug){
-			
-			$ee = curl_getinfo($ch);
-			echo "<strong>Raw curl response:</strong><br><br>";
-			print_r($raw_response);
-			echo "<br><br><strong>curl info:</strong><br><br>";
-			print_r($ee);
-			echo "<br><br>";
-		}
-			
-		$response = json_decode($raw_response);
-		
+		$response = json_decode($raw_response);		
 
 		if(!isset($response)) {
 			
 			$response = array(
 					'success' => 0,
-					'feedback' => 'Message failed to send.  Did not reach the server. Try turning on debugging for more info.',
+					'feedback' => 'Message failed to send.  Did not reach the server or server error. Try turning on debugging for more info.',
 					);
 					
 			$response = json_decode(json_encode($response));		
+		}
+		
+		if($debug){
+			
+			$ee = curl_getinfo($ch);
+			$response->curl_info = $ee;
 		}
 		
 		return $response;
