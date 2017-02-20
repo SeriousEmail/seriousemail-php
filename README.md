@@ -159,7 +159,9 @@ if(isset($send)){
 
 ```
 
-A note about CURL.  CURL can be a bit painful for some.  Especially with LOCALHOST. If you're having difficulty making a connection Sharwan Kammi added the following to the CURL options in SeriousEmail.php: 
+### CURL issues
+
+A note about CURL.  CURL can be a bit painful for some.  Especially with LOCALHOST. If you're having difficulty making a connection - Sharwan Kammi found success by adding the following to the CURL options in SeriousEmail.php: 
 
 ```
 curl_setopt($ch, CURLOPT_TIMEOUT, 1000);
