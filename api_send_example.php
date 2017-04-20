@@ -16,8 +16,7 @@ $data = array(
 								
 									'first_name' => 'Sam',
 									'last_name' => 'Lamb',
-									'email' => 'test1t@example.com',
-									'email' => 'success@simulator.amazonses.com',
+									'email' => 'test1@example.com',
 									'custom' => array(
 														'Points' => 92,
 														'Balance' => 500,
@@ -30,7 +29,6 @@ $data = array(
 									'first_name' => 'Bob',
 									'last_name' => 'Smith',
 									'email' => 'test2t@example.com',
-									'email' => 'success+label1@simulator.amazonses.com',
 									'custom' => array(
 														'Points' => 500,
 														'Balance' => 20,
