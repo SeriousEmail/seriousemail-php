@@ -89,11 +89,14 @@ $data = array(
 		'public_api_id' => 'YOUR_PUBLIC_API_KEY', 
 		'campaign_id' => 89,
 		'template_id' => 442,
+		'from_name' => 'John Smith',
+		'from_email' => 'test@example.com',
 		'recipient_info' => array(		
 						array (								
 							'first_name' => 'Sam',
 							'last_name' => 'Lamb',
 							'email' => 'test1@example.com',
+							'subject' => 'custom subject 1',
 							'custom' => array(
 									'Points' => 92,
 									'Balance' => 500,
@@ -103,6 +106,7 @@ $data = array(
 							'first_name' => 'Bob',
 							'last_name' => 'Smith',
 							'email' => 'test2@example.com',
+							'subject' => 'custom subject 2',
 							'custom' => array(
 									'Points' => 500,
 									'Balance' => 20,
@@ -161,7 +165,7 @@ if(isset($send)){
 
 ### CURL issues
 
-A note about CURL.  CURL can be a bit painful for some.  Especially with LOCALHOST. If you're having difficulty making a connection - Sharwan Kami (Thank you for pointing this out!) found success by adding the following to the CURL options in SeriousEmail.php: 
+A note about CURL.  CURL can be a bit painful for some.  Especially with LOCALHOST. If you're having difficulty making a connection - Sharwan Kami (Thank you for pointing this out) found success by adding the following to the CURL options in SeriousEmail.php: 
 
 ```
 curl_setopt($ch, CURLOPT_TIMEOUT, 1000);

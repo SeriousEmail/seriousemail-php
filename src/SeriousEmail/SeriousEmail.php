@@ -5,7 +5,7 @@
   * @author    Kurt Dommermuth <kurt@serious.email>
   * @copyright 2016 Serious Email
   * @license   https://opensource.org/licenses/MIT The MIT License
-  * @version   GIT: <git_id>
+  * @version   GIT: 3721352
 */
 
 /**
@@ -14,7 +14,7 @@
   
 class SeriousEmail
 {
-	private $version = '1.0.1';
+	private $version = '1.0.2';
 	
 	//secret can be retreived from your Serious.Email account - https://serious.email/account/settings#tab_api-settings
 	private $api_secret;
