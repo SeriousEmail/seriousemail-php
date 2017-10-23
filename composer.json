@@ -1,7 +1,7 @@
 {
   "name": "seriousemail/seriousemail-php",
   "description": "This library allows you to quickly and easily send emails through Serious.Email using PHP.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/SeriousEmail/seriousemail-php",
   "license": "MIT",
   "keywords": ["SeriousEmail", "seriousemail", "email"],
